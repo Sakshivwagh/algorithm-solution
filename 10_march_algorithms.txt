@@ -1,0 +1,63 @@
+1-Write an algorithm that calculates the sum of all natural numbers from 1 to a given number n.The user should input a value for n.
+The algorithm should compute the sum using a loop and display the result.
+
+1.Start
+2.Input a number N
+3.Initialize SUM = 0
+4.Loop from i = 1 to N:
+	Add i to SUM → SUM = SUM + i
+5.Print the final sum
+6.Stop
+
+
+2-Write an algorithm that checks if a given number n is a prime number or not.The user should input a value for n.
+The algorithm should check whether the number is divisible by any number other than 1 and itself.
+
+1.Start
+2.Input a number N
+3.If N ≤ 1, print "Not a Prime Number" and stop
+4.Loop from i = 2 to √N:
+	If N is divisible by i (N % i == 0), print "Not a Prime Number" and stop
+5.If no divisor is found, print "Prime Number"
+6.Stop
+
+
+3-Problem 3: Find the Maximum of Three Numbers
+Write an algorithm that takes three numbers as input and finds the largest of them.The user should input three values: a, b, and c.
+The algorithm should compare the numbers and print the maximum value.
+
+1.Start
+2.Input three numbers: a, b, c
+3.Compare the numbers:
+	If a > b and a > c, then a is the largest
+	Else if b > a and b > c, then b is the largest
+	Else, c is the largest
+4.Print the largest number
+5.Stop
+
+
+4-Problem 4: Factorial Calculation
+Write an algorithm that calculates the factorial of a number n.The user should input a number n.
+The algorithm should compute the factorial by multiplying all the integers from 1 to n.
+
+1.Start
+2.Input a number N
+3.Initialize FACT = 1
+4.Loop from i = 1 to N:
+	Multiply FACT = FACT * i
+5.Print the final factorial value
+6.Stop
+
+
+5-Problem 5: Check if a Number is Even or Odd
+Write an algorithm that checks if a given number n is even or odd.The user should input a value for n.
+The algorithm should check whether n is divisible by 2 and display the result as either "Even" or "Odd".
+
+1.Start
+2.Input a number N
+3.Check if N % 2 == 0:
+	If true, print "Even"
+	Else, print "Odd"
+4.Stop
+
+
